@@ -1,0 +1,26 @@
+# Fichiers de configuration sensibles
+.env
+*.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+*.log
+logs/
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# Fichiers de dépendances et build
+node_modules/
+dist/
+build/
+
+# Fichiers d'environnement local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
